@@ -1,0 +1,10 @@
+1) Smooth out colors in image / Apply HPF to help finding edges
+    Problem: Images are noisy with greyish areas. It is difficult 
+    to see the boundaries for the heart walls
+2) Measure distance between edges
+    Use a contour finding code?
+3) Identify systole and diastole measurements
+    If measurements are kept as a matrix, we 
+    could go through the measurements and 
+    once it peaks (either up or down) we
+    know this is the systole or diastole. 
