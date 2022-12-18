@@ -2,7 +2,16 @@
 
 ## Preprocessing
 
+The preprocess procedures are done in the notebook preprocess.ipynb.
 
+The users has to select one of the videos first to cut the videos into frames and retrieve the Motion mode from each images, and we also store the maximum and minimum scales from this mode to get the reference point for the measurement.
+
+The process function receives 5 parameters:
+- path: the source images of cutted motion mode we want to process
+- thresh_medium: the threshoding parameter for the medium parts results, recomended value: 25.
+- thresh_higher:the threshoding parameter for the higher parts results, recomended value: 15.
+- thresh_lower: the threshoding parameter for the lower parts results, recomended value: 60.
+- h: the height of the rectangle to block the top parts of the images to improve the results of higher and lower part.
 
 
 ## Measurements
